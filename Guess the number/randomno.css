@@ -1,0 +1,70 @@
+body {
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    background-color: #3c3f47; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 350px;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    row-gap: 15px; 
+    justify-items: center; 
+    text-align: center; 
+}
+
+.heading h1 {
+    font-size: 24px;
+    color: #f9f9f9;
+}
+
+#comments {
+    font-size: 18px;
+    color: #d9d9d9;
+}
+
+.side {
+    display: grid;
+    grid-template-columns: auto auto; 
+    column-gap: 10px; 
+    justify-items: center;
+    align-items: center;
+}
+
+input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #338938;
+}
+
+#times {
+    font-size: 16px;
+    color: #d9d9d9;
+}
